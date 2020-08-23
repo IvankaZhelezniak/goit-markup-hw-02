@@ -7,11 +7,10 @@
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 .list {
@@ -27,7 +26,8 @@ body {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
 }
 .logo-header {
   color: black;
@@ -39,7 +39,8 @@ body {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -49,10 +50,11 @@ body {
 .addres-list .mail {
   color: var(--primary-text-color);
   text-decoration: none;
-
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
 }
 
 .addres-list .mail:hover,
@@ -63,10 +65,12 @@ body {
 .addres-list .tel {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-style: normal;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
 }
 
 .addres-list .tel:hover,
@@ -82,10 +86,12 @@ body {
 
 .hero-title {
   color: var(--primary-white-color);
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36em;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
@@ -94,8 +100,9 @@ body {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17em;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* features */
@@ -105,12 +112,14 @@ body {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
 }
 
 .feature-list .text {
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
 }
 
 /* Команда  commands */
@@ -119,31 +128,45 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
 }
 
 .command-list .text {
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
 }
 
-/* Addres footer */
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
 .adres-footer .adres {
   color: var(--primary-white-color);
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
 }
 
 .adres-footer .mail {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
 }
 
 .adres-footer .tel {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
 }
 
 /* button кнопка */
@@ -157,9 +180,9 @@ body {
   height: 50px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87em;
   align-items: center;
-  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Стилизацый 2 страницы ПОРТФОЛИО main*/
@@ -173,7 +196,8 @@ body {
   height: 38px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62em;
+  letter-spacing: 0.03em;
 }
 
 .button {
@@ -186,6 +210,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62px;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-link .title {
@@ -193,11 +218,13 @@ body {
 
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-link .text {
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
 }
